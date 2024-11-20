@@ -1,0 +1,6 @@
+@PanicRoom_HostAddress = http://localhost:5276
+
+GET {{PanicRoom_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
