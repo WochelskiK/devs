@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\api\\PanicRoom\\PanicRoom.csproj": {}
+    "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\PanicRoom.csproj": {}
   },
   "projects": {
-    "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\api\\PanicRoom\\PanicRoom.csproj": {
+    "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\PanicRoom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\api\\PanicRoom\\PanicRoom.csproj",
+        "projectUniqueName": "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\PanicRoom.csproj",
         "projectName": "PanicRoom",
-        "projectPath": "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\api\\PanicRoom\\PanicRoom.csproj",
+        "projectPath": "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\PanicRoom.csproj",
         "packagesPath": "C:\\Users\\shock\\.nuget\\packages\\",
-        "outputPath": "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\api\\PanicRoom\\obj\\",
+        "outputPath": "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,9 +45,27 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
