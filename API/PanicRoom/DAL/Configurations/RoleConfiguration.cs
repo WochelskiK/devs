@@ -4,24 +4,24 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace PanicRoom.DAL.Configurations
 {
-    public class RoleConfiguration : IEntityTypeConfiguration<IdentityRole>
+    public class RoleConfiguration : IEntityTypeConfiguration<IdentityRole<int>>
     {
-        public void Configure(EntityTypeBuilder<IdentityRole> builder)
+        public void Configure(EntityTypeBuilder<IdentityRole<int>> builder)
         {
             builder.HasData(
-                new IdentityRole<int>()
+                new IdentityRole<int>
                 {
                     Id = 1,
                     Name = "Admin",
                     NormalizedName = "ADMIN"
                 },
-                new IdentityRole<int>()
+                new IdentityRole<int>
                 {
                     Id = 2,
                     Name = "Employee",
                     NormalizedName = "EMPLOYEE"
                 }
-                );
+            );
         }
     }
 }

@@ -1,0 +1,22 @@
+﻿@model PanicRoom.Entities.Issue
+
+<h2>Report an Issue</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Title:</label>
+        <input asp-for="Title" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div>
+        <label>Description:</label>
+        <textarea asp-for="Description"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div>
+        <label>Location:</label>
+        <input asp-for="Location" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+    <button type="submit">Submit</button>
+</form>

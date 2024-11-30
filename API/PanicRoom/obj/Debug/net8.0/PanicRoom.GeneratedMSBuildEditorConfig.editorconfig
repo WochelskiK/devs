@@ -9,11 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PanicRoom
 build_property.RootNamespace = PanicRoom
-build_property.ProjectDir = C:\Studia\Vistula\Projekt zespołowy\devs\API\PanicRoom\
+build_property.ProjectDir = E:\Studia\Semestr5\Projekt zespołowy\API\PanicRoom\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Studia\Vistula\Projekt zespołowy\devs\API\PanicRoom
+build_property.MSBuildProjectDirectory = E:\Studia\Semestr5\Projekt zespołowy\API\PanicRoom
 build_property._RazorSourceGeneratorDebug = 
+
+[E:/Studia/Semestr5/Projekt zespołowy/API/PanicRoom/View/Issues/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xJc3N1ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Studia/Semestr5/Projekt zespołowy/API/PanicRoom/View/Issues/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xJc3N1ZXNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

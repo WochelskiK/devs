@@ -1,0 +1,32 @@
+﻿@model IEnumerable<PanicRoom.Entities.Issue>
+
+<h2>Reported Issues</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Location</th>
+            <th>Created</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var issue in Model)
+        {
+            <tr>
+                <td>@issue.Title</td>
+                <td>@issue.Description</td>
+                <td>@issue.Location</td>
+                <td>@issue.Created.ToString("g")</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Issues", new { id = issue.Id })">Edit</a>
+                    |
+                    <form action="@Url.Action("Delete", "Issues", new { id = issue.Id })" method="post" style="display:inline;">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

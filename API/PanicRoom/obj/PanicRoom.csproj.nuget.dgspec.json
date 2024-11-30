@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\PanicRoom.csproj": {}
+    "E:\\Studia\\Semestr5\\Projekt zespołowy\\API\\PanicRoom\\PanicRoom.csproj": {}
   },
   "projects": {
-    "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\PanicRoom.csproj": {
+    "E:\\Studia\\Semestr5\\Projekt zespołowy\\API\\PanicRoom\\PanicRoom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\PanicRoom.csproj",
+        "projectUniqueName": "E:\\Studia\\Semestr5\\Projekt zespołowy\\API\\PanicRoom\\PanicRoom.csproj",
         "projectName": "PanicRoom",
-        "projectPath": "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\PanicRoom.csproj",
-        "packagesPath": "C:\\Users\\shock\\.nuget\\packages\\",
-        "outputPath": "C:\\Studia\\Vistula\\Projekt zespołowy\\devs\\API\\PanicRoom\\obj\\",
+        "projectPath": "E:\\Studia\\Semestr5\\Projekt zespołowy\\API\\PanicRoom\\PanicRoom.csproj",
+        "packagesPath": "C:\\Users\\Dajnamo\\.nuget\\packages\\",
+        "outputPath": "E:\\Studia\\Semestr5\\Projekt zespołowy\\API\\PanicRoom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dajnamo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,11 +62,19 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -70,6 +83,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
             }
           },
           "imports": [
@@ -91,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

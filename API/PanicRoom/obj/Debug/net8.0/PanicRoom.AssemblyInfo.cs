@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PanicRoom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a681d1cea5c90c6ab09a2cac98a843f836e258b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PanicRoom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PanicRoom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
